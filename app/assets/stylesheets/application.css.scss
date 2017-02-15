@@ -33,7 +33,7 @@
  }
 
 .navbar-default .navbar-brand,
-.navbar-default .navbar-nav > li > a{
+.navbar-default .navbar-nav > li > a,{
     color: white;    
     &:hover{
         color: white;
@@ -46,8 +46,19 @@
  }
  
 .navbar-brand{
-    font-family: 'Robot Slab', serif;
+    font-family: 'Roboto Slab', serif;
     font-weight: bold;
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+    background-color: white;
+}
+
+.navbar-default .navbar-toggle{
+    border: solid white 2px;
+    &:hover, &:focus{
+        background-color: #fc00ff;
+    }
 }
  
 //  Home page styles
